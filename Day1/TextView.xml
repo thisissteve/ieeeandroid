@@ -1,0 +1,9 @@
+<!--  This is how you display text on an android app -->
+
+<TextView
+    android:text="Hi there!"
+    android:layout_width="150dp"
+    android:layout_height="75dp"
+    android:textColor="@android:color/black"
+    android:background="@android:color/darker_gray"
+/>

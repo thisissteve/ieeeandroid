@@ -1,0 +1,7 @@
+<!-- This is an image View -->
+<ImageView
+    android:src="@drawable/ocean"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="8"
+    android:scaleType="centerCrop" />
