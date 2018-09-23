@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.Random;
 
 
-public class FunFactsActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private FactBook mFactBook = new FactBook();
     private ColorWheel mColorWheel = new ColorWheel();
@@ -21,7 +21,7 @@ public class FunFactsActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fun_facts);
+        setContentView(R.layout.activity_main);
 
         // Declare our View variables and assign them the Views from the layout file
         final TextView factLabel = (TextView) findViewById(R.id.factTextView);
